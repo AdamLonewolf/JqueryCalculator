@@ -17,6 +17,7 @@ body{
     padding: 20px;
     width: 190px;
     border-radius: 10px;
+    
 }
 
 button{
@@ -28,21 +29,51 @@ button{
     margin: 2px;
     font-weight: bold;
     border-radius: 10px;
-    background: linear-gradient(to right, #CCC, #FFF);
     font-family: 'Poppins', sans-serif;
+}
+
+.calc-btn:hover{
+    transition: 0.4s ease ;
+    background-color: #B2BABB;
 }
 
 .clear, .delete{
     width: 88px;
 }
 
+.clear{
+    background-color: #F04A39;
+}
+
+.delete:hover{
+    transition: 0.4s ease ;
+    background-color: #E5E7E9;
+}
+
+.clear:hover{
+    transition: 0.4s ease ;
+    background-color: #d54231;
+}
+
+.equal{
+    background-color:#85929E;
+}
+
+.equal:hover{
+    transition: 0.4s ease ;
+    background-color:#76818b;
+}
+
+
 .result{
     width: 184px;
     height: 35px;
     margin-bottom: 8px;
-    background: #EEE;
+    background: #2C3E50;
     text-align: right;
     padding: 2px;
+    font-size: 18px;
+    color: #fff;
     border-radius: 5px;
     box-shadow: none;
     outline: none;
